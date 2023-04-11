@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HONGAN\\QuanLyGiangDay\\QuanLyGiangDay\\QuanLyGiangDay.csproj": {}
+    "C:\\QLGD\\QuanLyGiangDay\\QuanLyGiangDay\\QuanLyGiangDay\\QuanLyGiangDay.csproj": {}
   },
   "projects": {
-    "D:\\HONGAN\\QuanLyGiangDay\\QuanLyGiangDay\\QuanLyGiangDay.csproj": {
+    "C:\\QLGD\\QuanLyGiangDay\\QuanLyGiangDay\\QuanLyGiangDay\\QuanLyGiangDay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HONGAN\\QuanLyGiangDay\\QuanLyGiangDay\\QuanLyGiangDay.csproj",
+        "projectUniqueName": "C:\\QLGD\\QuanLyGiangDay\\QuanLyGiangDay\\QuanLyGiangDay\\QuanLyGiangDay.csproj",
         "projectName": "QuanLyGiangDay",
-        "projectPath": "D:\\HONGAN\\QuanLyGiangDay\\QuanLyGiangDay\\QuanLyGiangDay.csproj",
-        "packagesPath": "C:\\Users\\daing\\.nuget\\packages\\",
-        "outputPath": "D:\\HONGAN\\QuanLyGiangDay\\QuanLyGiangDay\\obj\\",
+        "projectPath": "C:\\QLGD\\QuanLyGiangDay\\QuanLyGiangDay\\QuanLyGiangDay\\QuanLyGiangDay.csproj",
+        "packagesPath": "C:\\Users\\huuta\\.nuget\\packages\\",
+        "outputPath": "C:\\QLGD\\QuanLyGiangDay\\QuanLyGiangDay\\QuanLyGiangDay\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\daing\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\huuta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +25,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net70": {
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -36,7 +37,8 @@
         }
       },
       "frameworks": {
-        "net70": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -63,12 +65,26 @@
               "version": "[7.0.5, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win7-x86": {
-          "#import": []
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
